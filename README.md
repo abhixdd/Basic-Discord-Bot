@@ -27,8 +27,8 @@ client.on("message", (message) => {
 
   if (!message.content.startsWith(prefix) || message.author.bot) return;
  
-  if (message.content.startsWith(prefix + "ping")) {
-    message.channel.send("pong.");
+  if (message.content.startsWith(prefix + "ping")) { // ping command
+    message.channel.send("pong."); // responds by sending pong 
  
   }
 });
